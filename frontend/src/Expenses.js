@@ -5,7 +5,7 @@ import React, {
 } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://kashitrip.onrender.com/api";
 
 const members = [
   "Ramesh",
