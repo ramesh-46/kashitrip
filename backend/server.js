@@ -10,15 +10,14 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "https://kashitrip.vercel.app",
       "http://localhost:3000",
-      "http://localhost:5173",
-      "https://YOUR-VERCEL-DOMAIN.vercel.app"
+      "http://localhost:5173"
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
-
 // JSON body parser
 app.use(express.json());
 
