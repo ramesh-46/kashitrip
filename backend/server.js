@@ -48,7 +48,7 @@ mongoose
 
     app.listen(PORT, () => {
       console.log(
-        `Server running on http://localhost:${PORT}`
+        `Kashi Kshetram started on http://localhost:${PORT}`
       );
     });
   })
